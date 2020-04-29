@@ -63,10 +63,3 @@ Intent - Bulb Off
 
 You should switch to back end
 aws.amazon.com  - Lambda Function is one service which it is connected with Amazon Alexa
-
-
-
-
-
-
-         
