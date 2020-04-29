@@ -1,0 +1,72 @@
+Welcome to the Webinar.
+In this webinar, I'd be showing how to control a device
+  through Alexa where that device can be anywhere
+       across the globe but that device has to be connected
+                 with internet.
+
+Alexa is a voice assistant which works like Google Assistant
+ or something like siri or something like Cortanta
+
+AI Agents which gets communicated over the little conversation between the user and device.
+
+Alexa will be taking the voice request from the user
+ and process the request (understanding the request) what
+   user is talking about and then it pushes request to a cloud and then from cloud device will keep downloading the data
+      and the device will be operated.
+
+User (voice) -> Alexa -> Processing the Voice Command -> Cloud -> Wi-Fi Chip -> Relay -> Bulb
+
+Pre-Requsities:
+
+1. NodeMCU (Wi-Fi Chip) - Wi-Fi Connectivity + Controller (CPU) + I/O Units  - Amazon/ Flipkart - Rs. 300/- to Rs. 350/-
+2. Alexa Assistant - Alexa Echo Dot - Rs. 4000/- to Rs. 5000/- 
+3. Relay - Electro Magnetic Switch - Rs. 90/- to Rs. 120/- 
+4. Bulb - Bed Lamp - Rs. 100/- 
+5. Connecting Wires are Required
+
+1. AWS Account - 1 Year Free Tier - Individual Account - (aws.amazon.com)
+2. Amazon Developer Account - Alexa Skill will be created - (developer.amazon.com)
+3. Arduino Software - NodeMCU - (www.arduino.cc)
+4. Madblocks IoT Cloud - dashboard.madblocks.tech 
+
+If you are not interested to purchase Alexa Assistant, then you can go ahead with Alexa Simulator.
+
+What is the role of Amazon Developer Account in the task, the Alexa can't interpret the voice commands directly without invoking
+         any skill which is trained on it.
+
+
+Alexa, Book a Movie Ticket. - Default Skill - Search in Google - There is invocation
+Open BookMyShow, Alexa, Can you book a ticket for Sarileru Nikevaru? - Invoking the Application
+
+This is default
+Alexa, turn on the lamp - Search in Google..
+
+This will be for a skill which is trained on Alexa
+Alexa, Open madblocks IoT Skill - Inovking the skill
+Alexa, turn on the lamp - Voice Command
+
+Lets jump into Amazon Developer Account (developer.amazon.com)
+
+Alexa Skills Kit (ASK) is a software routine which gives you an interface for the developers to 
+            create new skills on Alexa.
+
+Invocation -> Activating the Skill
+
+Intent - Bulb On
+
+User1 -> Please turn on the Bulb - Utterances 
+User2 -> Bulb on
+User3 -> Can you make Bulb On
+User4 -> Put on the bulb
+
+Intent - Bulb Off
+
+You should switch to back end
+aws.amazon.com  - Lambda Function is one service which it is connected with Amazon Alexa
+
+
+
+
+
+
+         
